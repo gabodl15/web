@@ -1,0 +1,99 @@
+#nav {/*Color de la barra conde se encuentra el menu*/
+    background: linear-gradient(90deg,#011A31,#012342, 25%,#01325E);
+}
+
+li .nav-color { /*Color que tienen los link*/
+    color: white;
+}
+
+li .nav-color:hover{ /*Color del hover*/
+    color: #85929E;
+}
+
+
+li .active{ /*Aqui coloco la opacidad del elemento cuando está seleccionado*/
+    color: #85929E;
+    opacity: 0.7;
+}
+
+/**********************CAROUSEL**********************/
+.carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#carousel, #banner{
+    position: relative;
+}
+
+#carousel .overlay, #banner .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row,
+#banner .overlay .container,
+#banner .overlay .row{
+    height: 100%;
+}
+
+/**********************MEETING++++++++++++++++++++*/
+#meeting{
+    /* background: #1c3643; */
+    background: linear-gradient(90deg,#011A31,#012342, 25%,#01325E);
+}
+
+#meeting p, #meeting h3, #meeting h6{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+/**********************MENU************************/
+#menu{
+    background-color: #e2e2e2;
+}
+#menu .container .row h2{
+    color: #566573;
+}
+
+/**********************RECENTBLOG******************/
+#recentBlog h2{
+    font-family: 'Nunito', sans-serif;
+}
+
+#recentBlog .card img{
+    max-width: 100%;
+}
+
+#preaching .row h2{
+    font-family: 'Nunito', sans-serif;
+}
+
+/**********************BANNER**********************/
+#banner img{
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+/**********************VIDEOS**********************/
+
+#preaching .row .card-title{
+    font-family: 'Nunito', sans-serif;
+}
+
+/**********************FOOTER**********************/
+
+#footer {/*Color para el footer*/
+    background: linear-gradient(90deg,#011A31,#012342, 25%,#01325E);
+}
+
+#footer .row .nav-color{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
